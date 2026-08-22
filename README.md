@@ -10,9 +10,9 @@ Spring Boot와 Django를 기반으로 데이터 모델링, 인증·인가, 외�
 
 ## 🛠 Tech Stack
 
-- **Backend**: Java, Spring Boot, Python, Django REST Framework
-- **Data**: PostgreSQL, Redis
-- **Integration & Tools**: REST API, JWT, OAuth2, Docker, Git, n8n
+- **Backend**: `Java`, `Spring Boot`, `Python`, `Django REST Framework`
+- **Data**: `PostgreSQL`, `Redis`
+- **Integration & Tools**: `REST API`, `JWT`, `OAuth2`, `Docker`, `Git`, `n8n`
 
 ---
 
@@ -31,13 +31,13 @@ Spring Boot와 Django를 기반으로 데이터 모델링, 인증·인가, 외�
 <details>
 <summary><b>🧪 Proof of Concept</b></summary>
 
-대표 프로젝트에 핵심 기술을 적용하기 전, 구현 가능성과 외부 서비스 연동 방식을 작은 단위로 검증했습니다.
+프로젝트에 핵심 기술을 적용하기 전, 구현 가능성과 외부 서비스 연동 방식을 작은 단위로 검증했습니다.
 
 | PoC | Related Project | What I Verified |
 |---|---|---|
-| [Venue Map Extraction](https://github.com/typ0squir/venue-map-extraction-poc) | [Freeline](https://github.com/typ0squir/freeline) | 전시장 도면에서 부스 좌표와 크기를 추출하고 편집 가능한 웹 지도로 변환하는 흐름 |
-| [Instagram Image Generation](https://github.com/typ0squir/images-to-instagramable) | [맡케팅](https://github.com/typ0squir/matketing) | SDXL·ControlNet·RunPod를 활용해 상품 사진을 SNS 게시용 이미지로 변환하는 파이프라인 |
 | [Toss POS Integration](https://github.com/typ0squir/toss-pos-integration-poc) | [맡케팅](https://github.com/typ0squir/matketing) | 매장 POS 연결, 메뉴·가격·결제 데이터 수집 및 Instagram 지표와의 비교 흐름 |
+| [Instagram Image Generation](https://github.com/typ0squir/images-to-instagramable) | [맡케팅](https://github.com/typ0squir/matketing) | SDXL·ControlNet·RunPod를 활용해 상품 사진을 SNS 게시용 이미지로 변환하는 파이프라인 |
+| [Venue Map Extraction](https://github.com/typ0squir/venue-map-extraction-poc) | [Freeline](https://github.com/typ0squir/freeline) | 전시장 도면에서 부스 좌표와 크기를 추출하고 편집 가능한 웹 지도로 변환하는 흐름 |
 
 </details>
 
